@@ -1,0 +1,28 @@
+{
+    "name": "diego-rlima/laravel-cors",
+    "description": "Simple package to add CORS (Cross-Origin Resource Sharing) headers to the Laravel application.",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*|5.6.*|5.7.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego R. Lima",
+            "email": "contact@diegoribeiro.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "DRL\\LaravelCors\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DRL\\LaravelCors\\CorsServiceProvider"
+            ]
+        }
+    }
+}
